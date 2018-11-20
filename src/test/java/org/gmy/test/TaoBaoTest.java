@@ -26,7 +26,7 @@ public class TaoBaoTest {
         driver.findElement(By.id("q")).clear();
         driver.findElement(By.id("q")).sendKeys("巧克力");
         driver.findElement(By.xpath(".//*[@id='J_TSearchForm']/div[1]/button")).click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
     @After
     public void tearDown() {
